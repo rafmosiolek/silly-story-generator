@@ -16,3 +16,22 @@ var storyText = "It was 94 farenheit outside, so :insertx: went for a walk. When
 var insertX = ["Willy the Goblin", "Big Daddy", "Father Christmas"];
 var insertY = ["the soup kitchen", "Disneyland", "the White House"];
 var insertZ = ["spontaneously combusted", "melted into a puddle on the sidewalk", "turned into a slug and crwaled away"];
+
+// event listener
+randomize.addEventListener('click', result);
+
+// partial function definition
+function result(){
+    
+    if(customName.value != ""){
+        var name = customName.value;
+    }
+
+    if(document.getElementById("uk").checked){
+        var weight = Math.round(300);
+        var temperature = Math.round(94);
+    }
+
+    story.textContent = ;
+    story.style.visibility = "visible";
+}
