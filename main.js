@@ -45,6 +45,6 @@ function result(){
         newStory = newStory.replace("94 farenheit", temperature);
     }
 
-    story.textContent = ;
+    story.textContent = newStory;
     story.style.visibility = "visible";
 }
