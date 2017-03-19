@@ -1,21 +1,60 @@
+/*mobile first*/
 
 body {
   font-family: helvetica, sans-serif;
-  width: 350px;
+  width: 100vw;
+  background-color: #ecf0f1;
+
 }
-label {
-  font-weight: bold;  
-}
+
 div {
   padding-bottom: 20px;
 }
+
+.name-form h3 {
+  text-align: center;
+}
+
+.name-form label {
+  font-weight: bold;
+  margin: 0 auto; 
+}
+
 input[type="text"] {
   padding: 5px;
-  width: 150px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
 }
+
+.us-uk {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.us-uk label {
+  padding: 10px;
+}
+.btn {
+  text-align: center;
+}
+
+
 p {
   background: #FFC125;
   color: #5E2612;
   padding: 10px;
   visibility: hidden;
+}
+
+
+
+
+
+
+/*tablets, desktops++*/
+
+@media (min-width: 768px) {
+
 }
