@@ -22,6 +22,11 @@ randomize.addEventListener('click', result);
 
 // partial function definition
 function result(){
+
+    var newStory = storyText; // new random story is created each time button is pressed
+    var xItem = randomValueFromArray(insertX);
+    var yItem = randomValueFromArray(insertY);
+    var zItem = randomValueFromArray(insertZ);
     
     if(customName.value != ""){
         var name = customName.value;
