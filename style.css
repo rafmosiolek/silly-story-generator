@@ -52,14 +52,3 @@ p {
   margin: 0 auto;
   text-align: justify;
 }
-
-
-
-
-
-
-/*tablets, desktops++*/
-
-@media (min-width: 768px) {
-
-}
