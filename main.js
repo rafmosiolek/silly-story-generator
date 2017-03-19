@@ -31,14 +31,18 @@ function result(){
     newStory = newStory.replace(":insertx:", xItem);
     newStory = newStory.replace(":inserty:", yItem);
     newStory = newStory.replace(":insertz:", zItem);
+    newStory = newStory.replace(":insertx:", xItem);
     
     if(customName.value != ""){
         var name = customName.value;
+        newStory = newStory.replace("Bob", name);
     }
 
     if(document.getElementById("uk").checked){
-        var weight = Math.round(300);
-        var temperature = Math.round(94);
+        var weight = Math.round(300 * 0.071429 + " stone");
+        var temperature = Math.round((94-32) * 5 / 9) + " centigrade";
+        newStory = newStory.replace("300 pounds", weight);
+        newStory = newStory.replace("94 farenheit", temperature);
     }
 
     story.textContent = ;
